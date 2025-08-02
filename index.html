@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="nexton.png" alt="icon" class="logo" />
+      <H1 class="brand">Nexcent</H1>
+    </div>
+   
+   <div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Home</a>
+      <a href="#">Service</a>
+      <a href="#">Feature</a>
+      <a href="#">Product</a>
+      <a href="#">Testimonial</a>
+      <a href="#">FAQ</a>
+      <a  href="#">Login</a>
+      <a href="#" onclick="openForm()">Sign up</a>
+</div> 
+<button onclick="openNav()" class="openbtn">☰</button>
+    <nav class="navbar-center">
+      <a href="#">Home</a>
+      <a href="#">Service</a>
+      <a href="#">Feature</a>
+      <a href="#">Product</a>
+      <a href="#">Testimonial</a>
+      <a href="#">FAQ</a>
+    </nav>
+    <div class="navbar-right">
+        <button class="register-btn1">Login</button>
+      <button class="register-btn" onclick="openForm()">Sign up</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <div class="phero">
+        <h1>Lessons and insights</h1>
+        <h1 class="heading">from 8 years</h1>
+      <p>Where to grow your business as a photographer: site or social media?</p>
+      <button class="hero-btn">Get Started</button></div>
+      <div class="hero-img">
+      <img src="Illustration.png" alt="Hero Image" />
+    </div>
+    </div>
+     <div class="dot">
+        <img src="Dot.png" alt="">
+     </div>
+   
+  </section>
+  <div id="signupPopup" class="popup-form">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closeForm()">&times;</span>
+      <h2>Sign Up</h2>
+      <p>Please fill in this form to create an account</p>
+      <form>
+  <div class="input-group">
+    <label>Name</label>
+    <input id="name" type="text" placeholder="Enter your Name">
+  </div>
+
+  <div class="input-group">
+    <label>Email</label>
+    <input id="email" type="email" placeholder="Enter your Email">
+  </div>
+
+  <div class="input-group">
+    <label>Password</label>
+    <input id="password" type="password" placeholder="Enter Password">
+  </div>
+
+  <div class="input-group">
+    <label>Confirm Password</label>
+    <input id="confirmPassword" type="password" placeholder="Confirm Password">
+  </div>
+
+  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+  <p>If already have an account: <a href="#">login</a>.</p>
+
+  <div class="popup-buttons">
+    <button type="button" class="cancel-btn" onclick="closeForm()">Cancel</button>
+    <button type="submit" class="submit-btn" >Sign Up</button>
+  </div>
+</form>
+
+
+    </div>
+  </div>
+   <div>
+   <div>
+        <div class="clients">
+        <div class="client2"><h1 >Our Clients</h1></div>
+        <div class="client1"><p >We have been working with some Fortune 500+ clients</p></div>
+        </div>
+        <div class="clientimg">
+            <img src="Logo.png" alt="">
+            <img src="Logo (1).png" alt="">
+            <img src="Logo (2).png" alt="">
+            <img src="Logo (3).png" alt="">
+            <img src="Logo (4).png" alt="">
+            <img src="Logo (5).png" alt="">
+            <img src="Logo (6).png" alt="">
+        </div>
+    </div>
+   
+    <div>
+    <div class="clients">
+        <div class="client2">
+            <h1>Manage your entire community in a single system</h1>
+        </div>
+        <div class="client1">
+            <p>Who is Nextcent suitable for?</p>
+        </div>
+    </div>
+
+    <div class="clientimg1">
+        <div class="card">
+            <img src="icon.png" alt="">
+            <h1>Membership <br>Organisations</h1>
+            <p class="client1">Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+        <div class="card">
+            <img src="Icon (1).png" alt="">
+            <h1>National <br>Associations</h1>
+            <p class="client1">Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+        <div class="card">
+            <img src="Icon (2).png" alt="">
+            <h1>Clubs And <br>Groups</h1>
+            <p class="client1">Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+    </div>
+</div>
+
+    <div class="container1">
+        <div><img src="rafiki.png" alt=""></div>
+        <div class="class1"><h1>The unseen of spending three years at Pixelgrade</h1>
+        <p class="client1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+    <button class="hero-btn">Learn More</button></div>
+    </div>
+    
+    <div class="container2">
+        <div class="item1"><h1>Helping a local </h1><h1 class="green">business reinvent itself</h1><p>We reached here with our hard work and dedication</p></div>
+    <div class="item2">
+        <div class="box">
+            <img src="item1.png" alt=""><div><h2>2,245,341</h2><p class="client1">Members</p></div></div>
+        <div class="box">
+            <img src="item2.png" alt=""><div><h2>46,328</h2><p class="client1">Clubs</p></div>
+        </div>
+        <div class="box"> 
+            <img src="item3.png" alt=""><div><h2>828,867</h2><p class="client1">Event Bookings</p></div></div>
+            <div class="box"><img src="item4.png" alt=""><div><h2>1,926,436</h2><p class="client1">Payments</p></div>
+        </div>
+    </div>
+    </div>
+   
+
+
+    <div class="container3">
+  <div class="itemA">
+    <img src="pana.png" alt="">
+  </div>
+  <div class="itemB">
+    <h2>How to design your site footer like we did</h2>
+    <p>
+      Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt
+      molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
+      libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at
+      porta nisi facilisis finibus.
+    </p>
+    <button>Learn More</button>
+  </div>
+</div>
+
+
+<div class="container4">
+  <div class="Titem1">
+    <img src="tesla.png" alt="Tesla Logo">
+  </div>
+
+  <div class="Titem2">
+    <p class="Titem3">
+      Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper.
+      Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit.
+      Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales.
+    </p>
+
+    <h3 class="Titem4">Tim Smith</h3>
+    <p class="Titem5">British Dragon Boat Racing Association</p>
+
+    <div class="Titem6">
+      <img src="TLogo.png" alt="">
+      <img src="TLogo (1).png" alt="">
+      <img src="TLogo (2).png" alt="">
+      <img src="TLogo (3).png" alt="">
+      <img src="TLogo (4).png" alt="">
+      <img src="TLogo (5).png" alt="">
+      <button class="Titem7">
+        <h4>Meet all customers</h4>
+        <img src="Right.png" alt="">
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="container5">
+  <div class="item9">
+    <h2>Caring is the new marketing</h2>
+    <p>The Nexcent blog is the best place to read about the latest membership insights, <br>
+        trends and more. See who's joining the community, read about how our community <br>
+        are increasing their membership income and lot's more.​</p>
+  </div>
+
+  
+  <div class="item10">
+    <div class="item11">
+      <img src="card1 (2).png" alt="">
+      <div class="item12-box">
+        <h4 class="item12">Creating Streamlined Safeguarding Processes with OneRen</h4>
+        <a href="#" class="item13">Readmore →</a>
+      </div>
+    </div>
+
+    <div class="item11">
+      <img src="card2.png" alt="">
+      <div class="item12-box">
+        <h4 class="item12">What are your safeguarding responsibilities and how can you manage them?</h4>
+        <a href="#" class="item13">Readmore →</a>
+      </div>
+    </div>
+
+    <div class="item11">
+      <img src="card3.png" alt="">
+      <div class="item12-box">
+        <h4 class="item12">Revamping the Membership Model with Triathlon Australia</h4>
+        <a href="#" class="item13">Readmore →</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="last">
+    <div>
+        <h1>Pellentesque suscipit fringilla libero eu. <br></h1>
+    </div>
+    <div>
+        <button class="hero-btn">Get a Demo →</button>
+    </div>
+</div>
+
+  <footer>
+  <div class="footer">
+    <div class="fitem">
+      <div class="fimg">
+        <div class="ficon"><img src="ficon.png" alt="icon" class="logo" /></div>
+        <div><h2>Nexton</h2></div>
+      </div>
+      <div><p>Copyright © 2020 Nexcent ltd.<br>All rights reserved</p></div>
+      <div class="footerimg">
+        <div><img src="Social Icons.png" alt="Instagram"></div>
+        <div><img src="Social Icons3.png" alt="Twitter"></div>
+        <div><img src="Social Icons2.png" alt="Facebook"></div>
+        <div><img src="Social Icons1.png" alt="YouTube"></div>
+      </div>
+    </div>
+
+    <div class="fright">
+      <div>
+        <div><h2>Company</h2></div>
+        <div><p>About us</p></div>
+        <div><p>Blog</p></div>
+        <div><p>Contact us</p></div>
+        <div><p>Pricing</p></div>
+        <div><p>Testimonials</p></div>
+      </div>
+      <div>
+        <div><h2>Support</h2></div>
+        <div><p>Help center</p></div>
+        <div><p>Terms of service</p></div>
+        <div><p>Legal</p></div>
+       
+      </div>
+     <div >
+  <h2>Stay up to date</h2>
+  <div class="input-container">
+    <input type="email" placeholder="Your email address" />
+    <img src="send.png" alt="Send Icon" />
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
